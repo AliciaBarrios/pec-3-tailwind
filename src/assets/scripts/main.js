@@ -3,8 +3,8 @@
  * see commented examples below
  */
 
-// import 'some-node-module';
-// import SomeModule from 'some-node-module';
+import lightbox from "lightbox2";
+import 'lightbox2/dist/css/lightbox.min.css';
 
 /**
  * Write any other JavaScript below

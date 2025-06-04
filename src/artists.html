@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>UOC Boilerplate</title>
+  </head>
+  <body class="font-sans text-gray-800 flex flex-col h-screen text-base leading-6">
+    <include src="./views/header.html"></include>
+    <div class="bg-page">
+        <h1 class="text-center text-primary-light text-6xl font-semibold my-12">Ponentes</h1>
+        <div class="mx-auto max-w-[70vw] grid gap-12 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+            <include src="views/card.html">
+                {
+                    "img": "./assets/images/img-artista-1.jpg",
+                    "alt": "Imagen de Iris Saavedra",
+                    "authorLink": "https://unsplash.com/es/@heftiba?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+                    "author": "Toa Heftiba",
+                    "imgLink": "https://unsplash.com/es/fotos/mujer-de-pie-cerca-de-la-puerta-de-acero-azul-O3ymvT7Wf9U?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+                    "title": "Iris Saavedra",
+                    "subtitle": "Investigadora en Economía Ambiental - Universidad de Zaragoza",
+                    "description": "Iris lleva más de 15 años investigando modelos de producción sostenibles y es una de las voces más reconocidas en políticas de economía circular en el ámbito académico. Es autora del informe “Redefiniendo el residuo”."
+                }
+            </include>
+            <include src="views/card.html">
+                {
+                    "img": "./assets/images/img-artista-2.jpg",
+                    "alt": "Imagen de Ricard Esteve",
+                    "authorLink": "https://unsplash.com/es/@sadswim?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+                    "author": "Ian Dooley",
+                    "imgLink": "https://unsplash.com/es/fotos/hombre-de-pie-cerca-de-la-pared-blanca-d1UPkiFd04A?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+                    "title": "Ricard Esteve",
+                    "subtitle": "Divulgador científico y creador del canal “Circularmente”",
+                    "description": "Con un enfoque cercano y educativo, Ricard enseña a través de redes sociales qué es la economía circular y cómo podemos aplicarla en nuestro día a día. Su intervención será participativa y pensada para público general."
+                }
+            </include>
+            <include src="views/card.html">
+                {
+                    "img": "./assets/images/img-artista-3.jpg",
+                    "alt": "Imagen de Laura Esquivel",
+                    "authorLink": "https://unsplash.com/es/@michaeldam?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+                    "author": "Michael Dam",
+                    "imgLink": "https://unsplash.com/es/fotos/closeup-photography-of-woman-smiling-mEZ3PoFGs_k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+                    "title": "Laura Esquivel",
+                    "subtitle": "Responsable de Medio Ambiente en el Ayuntamiento de Sabadell",
+                    "description": "Laura compartirá las estrategias municipales actuales para fomentar la economía circular en el ámbito urbano: compostaje comunitario, puntos verdes inteligentes y compra pública verde."
+                }
+            </include>
+            <include src="views/card.html">
+                {
+                    "img": "./assets/images/img-artista-4.jpg",
+                    "alt": "Imagen de Andrés Navarro",
+                    "authorLink": "https://unsplash.com/es/@miracletwentyone?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+                    "author": "Joseph Gonzalez",
+                    "imgLink": "https://unsplash.com/es/fotos/hombre-con-camisa-blanca-con-cuello-en-v-iFgRcqHznqg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+                    "title": "Andrés Navarro",
+                    "subtitle": "Cofundador de ReVive, taller de reparación y reutilización tecnológica",
+                    "description": "Andrés lidera una startup que repara y reacondiciona dispositivos electrónicos para combatir la obsolescencia programada. Su charla se centra en la “segunda vida” de los objetos tecnológicos."
+                }
+            </include>
+            <include src="views/card.html">
+                {
+                    "img": "./assets/images/img-artista-5.jpg",
+                    "alt": "Imagen de Irene Costa",
+                    "authorLink": "https://unsplash.com/es/@slavromanov?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+                    "author": "Slav Romanov",
+                    "imgLink": "https://unsplash.com/es/fotos/mujer-sonriente-sentada-en-la-hierba-durante-el-dia-BrEAp01_m5w?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+                    "title": "Irene Costa",
+                    "subtitle": "Consultora de sostenibilidad para empresas locales",
+                    "description": "Irene asesora a pymes en la implementación de procesos de producción sostenibles. Explicará cómo pequeñas empresas pueden adoptar principios de economía circular sin perder competitividad."
+                }
+            </include>
+            <include src="views/card.html">
+                {
+                    "img": "./assets/images/img-artista-6.jpg",
+                    "alt": "Imagen de Malik Ben Youssef",
+                    "authorLink": "https://unsplash.com/es/@juricakoletic?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+                    "author": "Jurica Koletić",
+                    "imgLink": "https://unsplash.com/es/fotos/hombre-que-lleva-el-retrato-superior-de-henley-7YVZYZeITc8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+                    "title": "Malik Ben Youssef",
+                    "subtitle": "Diseñador textil y activista del movimiento slow fashion",
+                    "description": "Fundador de Hilo Ético, una marca de ropa hecha a partir de tejidos reciclados. Hablará sobre el impacto de la moda rápida y alternativas reales desde la producción local y consciente."
+                }
+            </include>
+        </div>
+    </div>
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+  </body>
+</html>
