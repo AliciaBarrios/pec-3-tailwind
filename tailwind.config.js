@@ -39,6 +39,14 @@ module.exports = {
         serif: ['Georgia', '"Times New Roman"', 'serif'],
         serifDecorative: ["Literata", 'serif'],
       },
+      fontSize: {
+        'h1-desktop': ['3.5rem', '4.5rem'], // tamaño, line-height
+        'h1-mobile': ['2rem', '2.25rem'],
+        'h2-desktop': ['2rem', '2.25rem'],
+        'h2-mobile': ['1.6rem', '2rem'],
+        'h3-desktop': ['1.5rem', '2rem'],
+        'h3-mobile': '1.4rem', 
+      },
       content: {
         counterItem: 'counter(item)',
       },

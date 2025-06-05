@@ -1,7 +1,13 @@
 @use "sass:color";
 
-// @apply {
-//   .flex-column-center {
-//     @apply flex flex-col items-center;
-//   }
-// }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body-default {
+  @apply font-sans bg-page text-basic-dark flex flex-col h-screen text-base leading-6;
+}
+
+.display-grid {
+  @apply mx-auto grid gap-12 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3;
+}

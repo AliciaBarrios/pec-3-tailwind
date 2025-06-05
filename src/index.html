@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Playwrite+GB+S:ital,wght@1,100&display=swap" rel="stylesheet">
     <title>Economía Circular</title>
   </head>
-  <body class="font-sans text-gray-800 flex flex-col h-screen text-base leading-6">
+  <body class="body-default">
     <include src="./views/header.html"></include>
 
     <article>
@@ -17,16 +17,16 @@
         <img src="./assets/images/articulo-1.jpg" alt="Persona participando en un taller"
              class="absolute inset-0 w-full h-full object-cover z-0" />
         <div class="relative z-10 bg-black/40 text-white py-12 px-8 m-4 rounded-xl">
-          <h1 class="text-3xl md:text-6xl font-semibold">Economía Circular y su impacto en la comunidad</h1>
+          <h1 class="text-h1-mobile md:text-h1-desktop font-semibold">Economía Circular y su impacto en la comunidad</h1>
           <p class="italic text-md mt-8">Por el equipo ReVive Talks</p>
         </div>
       </header>
 
       <!-- MAIN CONTENT -->
-      <main class="flex flex-col items-center justify-center px-4 py-8 max-w-[70vw] mx-auto">
+      <main class="flex flex-col items-center justify-center px-4 py-8 max-w-[85vw] md:max-w-[60vw] mx-auto">
         <!-- INTRO -->
         <section class="border-b border-primary-light mb-10 py-12 w-full flex flex-col xl:flex-row items-center text-center">
-          <h2 class="text-4xl font-semibold text-primary-light mb-4 xl:w-[50%]">¿Qué es la economía circular?</h2>
+          <h2 class="text-h2-mobile md:text-h2-desktop font-semibold text-primary-light mb-4 xl:w-[50%]">¿Qué es la economía circular?</h2>
           <p class="text-2xl xl:w-[50%] font-light">
             Es una estrategia de producción y consumo que promueve el uso eficiente de recursos.
             Implica compartir, reutilizar, reparar, renovar y reciclar materiales y productos existentes para darles una segunda vida.
@@ -58,9 +58,9 @@
         </section>
 
         <!-- QUOTE -->
-        <section class="bg-secondary-light border-l-4 border-alert-dark px-6 py-4 my-12 w-full max-w-3xl">
-          <blockquote class="relative text-4xl text-center font-medium italic text-alert-dark max-w-[800px] py-10 px-8">
-            <span class="absolute top-2 left-2 text-7xl text-alert-light font-serifDecorative">“</span>
+        <section class="bg-secondary-light border-l-4 border-alert-dark px-6 py-4 my-12 w-full max-w-4xl">
+          <blockquote class="relative text-3xl md:text-4xl text-center font-medium italic text-alert-dark max-w-[800px] py-10 px-6 mx-auto">
+            <span class="absolute top-4 -left-2 text-7xl text-alert-light font-serifDecorative">“</span>
             Una economía circular no es una opción, es una necesidad para preservar el planeta.
             <span class="absolute -bottom-2 -right-2 text-7xl font-serifDecorative italic text-alert-light">”</span>
           </blockquote>
@@ -68,7 +68,7 @@
 
         <!-- PARTICIPACIÓN CIUDADANA -->
         <section class="text-center space-y-4 mb-8 w-full">
-          <h3 class="text-2xl font-semibold">Participación ciudadana</h3>
+          <h3 class="text-h3-mobile md:text-h3-desktop font-bold">Participación ciudadana</h3>
           <p class="text-xl font-thin">
             La ciudadanía desempeña un papel clave en la transición hacia una economía circular. Cada gesto cuenta: elegir productos duraderos, 
             reducir el consumo innecesario o apostar por la reparación y reutilización son acciones con un gran impacto colectivo. 
@@ -86,18 +86,18 @@
         </section>
 
         <!-- FIGURE -->
-        <figure class="w-full mb-12">
+        <figure class="md:max-w-[80%] w-full mb-12">
           <img src="./assets/images/articulo-2.jpg" alt="Imagen del taller de reutilización" class="w-full rounded-3xl mb-2" />
-          <figcaption class="text-sm text-gray-600">
+          <figcaption class="text-md text-center">
             Imagen del taller de reutilización del año pasado.
             Foto de <a href="https://unsplash.com/es/@designcrft" class="text-blue-600 underline hover:text-blue-800">Courtney Vitale</a> en <a href="https://unsplash.com" class="text-blue-600 underline hover:text-blue-800">Unsplash</a>
           </figcaption>
         </figure>
 
         <!-- FINAL SECTION -->
-        <section class="flex items-center gap-3 bg-secondary-light text-alert-dark px-6 py-4 border-l-4 border-alert-dark rounded-lg w-full">
+        <section class="flex items-center gap-3 bg-secondary-light text-alert-dark px-6 py-4 border-l-4 border-alert-dark rounded-lg">
           <i class="fa-solid fa-calendar-days text-xl"></i>
-          <p class="font-semibold">Las jornadas se celebran del 10 al 12 de mayo, con actividades gratuitas para todos los públicos.</p>
+          <p class="text-xl text-center font-semibold">Las jornadas se celebran del 10 al 12 de mayo, con actividades gratuitas para todos los públicos.</p>
         </section>
       </main>
     </article>

@@ -1,14 +1,14 @@
 <div class="flex-1 flex-basis text-center max-w-[380px] mx-auto border border-gray-300 bg-white rounded-lg">
-    <figure class="card__image">
+    <figure>
       <a href="{{ img }}" data-lightbox="galeria" data-title="{{ title }} - {{ subtitle }}">
-        <img src="{{ img }}" alt="{{ alt }}" class="card-img-top" />
+        <img src="{{ img }}" alt="{{ alt }}" />
       </a>
-      <figcaption class="bg-basic-light text-basic-grey py-2 text-xs">
+      <figcaption class="bg-basic-light text-basic-grey py-2 px-4 text-xs">
           Foto de <a href="{{ authorLink }}" class="text-blue-600 underline hover:text-blue-800">{{ author }}</a> en <a href="{{ imgLink }}" class="text-blue-600 underline hover:text-blue-800">Unsplash</a>
       </figcaption>
     </figure>
   <div class="px-4 py-6">
-      <h2 class="text-3xl font-semibold text-black">{{ title }}</h2>
+      <h2 class="text-h2-mobile md:text-h2-desktop font-semibold text-black">{{ title }}</h2>
       <p class="font-semibold text-xl text-secondary-dark my-4">{{ subtitle }}</p>
       <p class="text-black text-xl font-extralight">{{ description }}</p>
   </div>
